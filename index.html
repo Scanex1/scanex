@@ -10,33 +10,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<div id="columna" class="col">
     <img id="logo" src="LOGO SCAnEX↑1.jpg" alt="Logo ScanEx no se ha podido cargar."> 
     <h1 id="titulo">Calculadora ScanEx</h1>
-    
     <h3>EXPELER [Tn]</h3>
-    <label for="Expeler [Tn]"></label> <!--Etiqueta.-->
-    <input id="exp" type="number" name="Expeler [Tn]" placeholder="Ingrese las Toneladas" required> <!--Ingreso de dato. Tipo, nombre de la variable y texto dentro del recuadro.-->
+    <label for="Expeler [Tn]">
+        <input id="exp" type="number" name="Expeler [Tn]" placeholder="Ingrese las Toneladas" required> <!--Ingreso de dato. Tipo, nombre de la variable y texto dentro del recuadro.-->
+    </label> <!--Etiqueta.-->
     
     <h3>ACEITE [Tn]</h3>
-    <label for="Aceite [Tn]"></label>
-    <input id="ace" type="number" name="Aceite [Tn]" placeholder="Ingrese las Toneladas" required>
-    
-    <br /><br /><!--Salto de línea.-->
+    <label for="Aceite [Tn]">
+        <input id="ace" type="number" name="Aceite [Tn]" placeholder="Ingrese las Toneladas" required>
+    </label>
+
     <!--Botón calcular.-->
     <button type="button" id="bot">Calcular</button>
+    <br><br/><!--Salto de línea.-->
 
     <h3>SOJA [Tn]</h3>
-    <label for="Soja [Tn]"></label>
-    <p id="psoj" class="resultado">0.00 Tn</p>
-
+    <label for="Soja [Tn]">
+        <p id="psoj" class="resultado">0.00 Tn</p>
+    </label>
+    
     <h3>EXTRACCIÓN [%]</h3>
-    <label for="Extracción [%]"></label>
-    <p id="pext" class="resultado">0.00 %</p>
+    <label for="Extracción [%]">
+        <p id="pext" class="resultado">0.00 %</p>
+    </label>
 
     <i>* Valores calculados estimando una pérdida de masa en el proceso del 5%.</i>
     
     <script src="SCANEX.JS"></script> <!--es el link al JS. Va al final para que se hayan cargado todos los elementos antes.-->
+</div>
 </body>
 </html>

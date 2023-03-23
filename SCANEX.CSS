@@ -1,6 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     width: 410px;
 }
 
@@ -12,9 +12,9 @@
 #titulo{
     font-size: 35px;
     text-align: center;
-    margin:auto;
+    margin-bottom:10px;
     border: 2px solid  green;
-    width: 406px;
+    width: 410px;
 }
 
 #bot{
@@ -26,7 +26,7 @@
 
 input{
     padding-left: 5px;
-    width: 400px;
+    width: 410px;
 }
 
 .resultado{
@@ -36,10 +36,10 @@ input{
 
 p{
     border: 1px solid grey;
-    width: 400px;
+    width: 410px;
 }
 
 i{
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
 }

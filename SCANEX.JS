@@ -21,7 +21,7 @@ document.getElementById("bot").onclick = function () {
 
 //Función para calcular la soja.
 function soja (e, a, d) {
-    return (e + a) * d;
+    return (e + a) / d;
 }
 
 //Función para calcular la extracción.
