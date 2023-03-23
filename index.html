@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ScanEx</title>
+    <link rel="icon" type="image/x-icon" href="ICONO SCAnEX↑ 1.ico"> <!--favicon: logo miniatura en el titulo de la pestaña, siempre va debajo del título-->
+    <link rel="stylesheet" href="SCANEX.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img id="logo" src="LOGO SCAnEX↑1.jpg" alt="Logo ScanEx no se ha podido cargar."> 
+    <h1 id="titulo">Calculadora ScanEx</h1>
+    
+    <h3>EXPELER [Tn]</h3>
+    <label for="Expeler [Tn]"></label> <!--Etiqueta.-->
+    <input id="exp" type="number" name="Expeler [Tn]" placeholder="Ingrese las Toneladas" required> <!--Ingreso de dato. Tipo, nombre de la variable y texto dentro del recuadro.-->
+    
+    <h3>ACEITE [Tn]</h3>
+    <label for="Aceite [Tn]"></label>
+    <input id="ace" type="number" name="Aceite [Tn]" placeholder="Ingrese las Toneladas" required>
+    
+    <br /><br /><!--Salto de línea.-->
+    <!--Botón calcular.-->
+    <button type="button" id="bot">Calcular</button>
+
+    <h3>SOJA [Tn]</h3>
+    <label for="Soja [Tn]"></label>
+    <p id="psoj" class="resultado">0.00 Tn</p>
+
+    <h3>EXTRACCIÓN [%]</h3>
+    <label for="Extracción [%]"></label>
+    <p id="pext" class="resultado">0.00 %</p>
+
+    <i>* Valores calculados estimando una pérdida de masa en el proceso del 5%.</i>
+    
+    <script src="SCANEX.JS"></script> <!--es el link al JS. Va al final para que se hayan cargado todos los elementos antes.-->
+</body>
+</html>
