@@ -1,6 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     width: 410px;
 }
 
@@ -40,6 +40,5 @@ p{
 }
 
 i{
-    font-size: 15px;
     color: grey;
 }
